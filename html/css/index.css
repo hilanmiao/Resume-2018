@@ -1,0 +1,91 @@
+body {
+  background: #060e1b;
+  overflow: hidden;
+}
+
+/* starry */
+.starry-wrapper {
+  z-index: 0;
+}
+
+/* digital-clock */
+.digital-clock-wrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  z-index: 1;
+}
+
+.digital-clock-wrapper .title {
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* nav */
+.nav-wrapper {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.nav-wrapper a.active {
+  color: #ffffff;
+}
+
+.nav-wrapper .left img {
+  width: 40px;
+}
+
+.nav-wrapper .left a {
+  margin-right: 10px;
+}
+
+.nav-wrapper .right a {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-wrapper .right a .tag {
+  visibility: hidden;
+}
+
+.nav-wrapper .right a.active .tag {
+  visibility: visible;
+}
+
+/* content */
+.content-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 100px 50px 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-wrapper .text-wrapper img {
+  height: 100px;
+}
+
+.content-wrapper .gangum-wrapper {
+  height: 100%;
+}
+
+.content-wrapper .gangum-wrapper img {
+  height: 100%;
+}
