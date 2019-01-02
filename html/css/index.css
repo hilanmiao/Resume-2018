@@ -25,7 +25,7 @@ body {
 .digital-clock-wrapper {
   position: absolute;
   bottom: 40px;
-  left: 20px;
+  left: 60px;
   z-index: 1;
 }
 
@@ -90,23 +90,56 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
 }
 
-.content-wrapper .glitch-text-wrapper img {
+.content-wrapper .glitch-text-wrapper .signature1 {
   height: 300px;
 }
+
+.content-wrapper .glitch-text-wrapper .signature2 {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
 
 .content-wrapper .glitch-text-wrapper {
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content-wrapper .gandum-wrapper {
   position: relative;
   height: 100%;
   z-index: 3;
+}
+
+.content-wrapper .gandum-wrapper .gandum{
+  height: 100%;
+}
+
+.content-wrapper .gandum-wrapper .gandum-lightning1 {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.content-wrapper .gandum-wrapper .gandum-lightning2 {
+  visibility: hidden;
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+}
+
+.content-wrapper .gandum-wrapper .gandum-lightning3 {
+  visibility: hidden;
+  position: absolute;
+  bottom: 40px;
+  left: -15px;
 }
 
 .lightning-wrapper {
@@ -118,4 +151,16 @@ body {
   right: 0;
   z-index: 2;
 }
+
 /* lightning */
+.lightning-wrapper .lightning1 {
+  visibility: hidden;
+}
+
+.lightning-wrapper .lightning2 {
+  visibility: hidden;
+}
+
+.lightning-wrapper .lightning3 {
+  visibility: hidden;
+}
