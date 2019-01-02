@@ -30,10 +30,6 @@
 
 <!-- Add your site or application content here -->
 <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
-<div class="starry-wrapper">
-  <canvas id="starry"></canvas>
-</div>
-
 <div class="nav-wrapper">
   <div class="left">
     <a href="https://gitee.com/XiaoLanMiao" target="_blank">
@@ -64,6 +60,10 @@
   </div>
 </div>
 
+<div class="starry-wrapper">
+  <canvas id="starry"></canvas>
+</div>
+
 <!-- Default view dimension 400 x 100 -->
 <div class="digital-clock-wrapper">
   <div class="title">CURRENT TIME</div>
@@ -71,21 +71,27 @@
 </div>
 
 <div class="content-wrapper">
-  <div class="text-wrapper">
-    <div class="text1">
-      <img src="img/glitch1.png" alt="">
-    </div>
-    <div class="text2">
-      <img src="img/glitch2.png" alt="">
-    </div>
-    <div class="text3">
-      <img src="img/glitch3.png" alt="">
-    </div>
+  <div class="glitch-text-wrapper" id="glitch-text-wrapper" >
+      <img src="img/glitch-text.png" alt="">
   </div>
 
-  <div class="gangum-wrapper">
+  <div class="gandum-wrapper" id="gandum-wrapper">
     <img src="img/gandum.png" alt="">
+    <img src="img/lightning/4.png" alt="">
+    <img src="img/lightning/5.png" alt="">
+    <img src="img/lightning/6.png" alt="">
   </div>
+</div>
+
+<div class="lightning-wrapper">
+  <img src="img/lightning/1.png" alt="">
+  <img src="img/lightning/2.png" alt="">
+  <img src="img/lightning/3.png" alt="">
+</div>
+
+<!-- 这个放在上面glitch效果会盖住其他内容 -->
+<div class="glitch-bg">
+  <img src="img/glitch-bg.png" alt="">
 </div>
 
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>

@@ -3,6 +3,19 @@ body {
   overflow: hidden;
 }
 
+/* glitch-bg */
+.glitch-bg {
+  /*background-image: url("../img/glitch-bg.png");*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+}
+
 /* starry */
 .starry-wrapper {
   z-index: 0;
@@ -32,6 +45,7 @@ body {
   left: 50px;
   display: flex;
   justify-content: space-between;
+  z-index: 999;
 }
 
 .nav-wrapper a {
@@ -76,16 +90,32 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
-.content-wrapper .text-wrapper img {
-  height: 100px;
+.content-wrapper .glitch-text-wrapper img {
+  height: 300px;
 }
 
-.content-wrapper .gangum-wrapper {
+.content-wrapper .glitch-text-wrapper {
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.content-wrapper .gangum-wrapper img {
+.content-wrapper .gandum-wrapper {
+  position: relative;
   height: 100%;
+  z-index: 3;
 }
+
+.lightning-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+/* lightning */

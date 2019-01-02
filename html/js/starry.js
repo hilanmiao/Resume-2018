@@ -3,6 +3,7 @@
 * 星空canvas
 * */
 {
+  let contentWrapper = document.getElementsByClassName('content-wrapper')[0];
   let canvas = document.getElementById('starry'),
     ctx = canvas.getContext('2d'),
     w = canvas.width = window.innerWidth,
