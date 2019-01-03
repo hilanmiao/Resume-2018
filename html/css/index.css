@@ -25,7 +25,7 @@ body {
 .digital-clock-wrapper {
   position: absolute;
   bottom: 40px;
-  left: 60px;
+  left: 80px;
   z-index: 1;
 }
 
@@ -40,9 +40,9 @@ body {
 /* nav */
 .nav-wrapper {
   position: absolute;
-  top: 40px;
-  right: 50px;
-  left: 50px;
+  top: 60px;
+  right: 80px;
+  left: 80px;
   display: flex;
   justify-content: space-between;
   z-index: 999;
@@ -86,7 +86,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  margin: 100px 50px 100px 50px;
+  margin: 100px 80px 100px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
