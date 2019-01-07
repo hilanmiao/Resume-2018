@@ -1,7 +1,7 @@
-# Resume-2019
+# Resume-2018
 
 #### 预览地址
-[http://www.smartmiao.com](http://www.smartmiao.com)
+[http://2018.smartmiao.com](http://2018.smartmiao.com)
 
 #### 项目介绍
 想要找到一份好工作？没有一份好简历怎么行？psd文件和html文件均由自己制作，不必担心授权。祝你找到一份好工作！
@@ -12,7 +12,7 @@
 - [x] 基础功能：animate.css制作动画效果
 - [x] 基础功能：mgGlitch.js制作故障效果
 
-![Alt text](https://raw.githubusercontent.com/hilanmiao/Resume-2019/master/Screen/screen1.jpg)
+![Alt text](https://raw.githubusercontent.com/hilanmiao/Resume-2019/master/screenshot/screen1.jpg)
 
 #### 参与贡献
 
