@@ -12,8 +12,7 @@
 - [x] 基础功能：animate.css制作动画效果
 - [x] 基础功能：mgGlitch.js制作故障效果
 
-![Alt text](https://raw.githubusercontent.com/hilanmiao/Resume-2019/master/screenshot/screen1.jpg)
-
+![Alt text](https://raw.githubusercontent.com/hilanmiao/Resume-2018/master/screenshot/screen1.jpg)
 #### 参与贡献
 
 1. Fork 本项目
